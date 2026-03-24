@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recipe Sharing App</title>
+</head>
+<body>
+  <h1>Welcome to Recipe Sharing App</h1>
+  <p>This is a simple frontend for the microservices app.</p>
+  <script>
+    // Example: Fetch recipes
+    fetch('/api/recipes')
+      .then(response => response.json())
+      .then(data => console.log(data));
+  </script>
+</body>
+</html>
